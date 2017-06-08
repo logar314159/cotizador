@@ -1,7 +1,7 @@
 {
-  "name": "js-express-boilerplate",
+  "name": "Cotizador",
   "version": "0.1.0",
-  "description": "A Node.js/Express boilerplate",
+  "description": "Cotizador de precios",
   "main": "server.js",
   "author": {
     "name": "Brendan Goodenough",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nerdenough/js-express-boilerplate.git"
+    "url": "git+https://github.com/logar314159/cotizador.git"
   },
   "bugs": {
     "url": "https://github.com/nerdenough/js-express-boilerplate/issues"

@@ -1,14 +1,24 @@
 extends ../shared/layout.pug
 
 block content
-  div class="btn-group btn-group-justified" role="group" aria-label="..."
-  div class="btn-group" role="group"
-    button type="button" class="btn btn-default"
-  div
-  div class="btn-group" role="group"
-    button type="button" class="btn btn-default"
-  div
-  div class="btn-group" role="group"
-    button type="button" class="btn btn-default"
-  div
-  div
+  .container
+    .btn-group.btn-group-justified(role='group', aria-label='...')
+      .btn-group(role='group')
+        button.btn.btn-default(type='button') Cotizador
+      .btn-group(role='group')
+        button.btn.btn-default(type='button') Configuración
+    
+    ul.nav.nav-tabs.nav-justified
+      li.active(role='navigation')
+        a(href='#' data-toggle="tab") Cotizador
+      li(role='navigation')
+        a(href='#' data-toggle="tab") Configuración
+
+    ul.nav.navbar-nav
+      li.active
+        a(data-toggle="tab" href="#") Home1
+      li
+        a(data-toggle="tab" href="#") Home2
+      li
+        a(data-toggle="tab" href="#") Home3
+    
